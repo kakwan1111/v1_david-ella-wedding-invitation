@@ -1,6 +1,15 @@
 /**
  * 霧晨莊園：長卷式歐式水彩喜帖。以信箋留白、非對稱植物框景與古金細線呈現莊重而親密的婚禮儀式感。
  */
+
+/**
+ *const ASSETS = {
+  hero: "/manus-storage/wedding-hero-rev2_7ea112bc.jpg",
+  venue: "/manus-storage/wedding-venue-rev2_271b07cf.jpg",
+  monogram: "/manus-storage/names-handwritten-monogram_accc1de9.png",
+  divider: "/manus-storage/botanical-divider-rev2_0775b94f.png",
+};
+*/
 import { useEffect, useState } from "react";
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { CalendarPlus, ChevronDown, MapPin, Navigation } from "lucide-react";
@@ -11,7 +20,12 @@ const ASSETS = {
   monogram: "/manus-storage/names-handwritten-monogram_accc1de9.png",
   divider: "/manus-storage/botanical-divider-rev2_0775b94f.png",
 };
-
+const ASSETS = {
+  hero: "https://your-domain.com/images/wedding-hero-rev2.jpg",   // ← upload these
+  venue: "https://your-domain.com/images/wedding-venue-rev2.jpg",
+  monogram: "https://your-domain.com/images/names-handwritten-monogram.png",
+  divider: "https://your-domain.com/images/botanical-divider-rev2.png",
+};
 const reveal = {
   hidden: { opacity: 0, y: 18 },
   visible: { opacity: 1, y: 0 },
