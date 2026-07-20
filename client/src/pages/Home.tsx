@@ -15,10 +15,10 @@ import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion
 import { CalendarPlus, ChevronDown, MapPin, Navigation } from "lucide-react";
 
 const ASSETS = {
-  hero: "/images/wedding-hero-rev2.jpg",
-  venue: "/images/wedding-venue-rev2.jpg",
-  monogram: "/images/names-handwritten-monogram.png",
-  divider: "/images/botanical-divider-rev2.png",
+  hero: "https://raw.githubusercontent.com/kakwan1111/v1_david-ella-wedding-invitation/main/images/wedding-hero-rev2.jpg",
+  venue: "https://raw.githubusercontent.com/kakwan1111/v1_david-ella-wedding-invitation/main/images/wedding-venue-rev2.jpg",
+  monogram: "https://raw.githubusercontent.com/kakwan1111/v1_david-ella-wedding-invitation/main/images/names-handwritten-monogram.png",
+  divider: "https://raw.githubusercontent.com/kakwan1111/v1_david-ella-wedding-invitation/main/images/botanical-divider-rev2.png",
 };
 const reveal = {
   hidden: { opacity: 0, y: 18 },
