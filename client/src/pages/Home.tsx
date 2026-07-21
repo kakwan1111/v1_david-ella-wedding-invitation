@@ -211,10 +211,6 @@ export default function Home() {
 
             <div className="form-row">
               <div className="form-group">
-                <label htmlFor="guestEmail">Email</label>
-                <input type="email" id="guestEmail" name="guestEmail" placeholder="your@email.com" />
-              </div>
-              <div className="form-group">
                 <label htmlFor="guestPhone">Phone</label>
                 <input type="tel" id="guestPhone" name="guestPhone" placeholder="+852 XXXX XXXX" />
               </div>
@@ -228,7 +224,8 @@ export default function Home() {
                   <option value="2">2</option>
                   <option value="3">3</option>
                   <option value="4">4</option>
-                  <option value="5">5+</option>
+                  <option value="5">5</option>
+                  <option value="6">6+</option>
                 </select>
               </div>
               <div className="form-group">
