@@ -209,7 +209,7 @@ export default function Home() {
               <input type="text" id="guestName" name="guestName" required placeholder="Full Name" />
             </div>
 
-              <div className="form-group">
+              <div className="form-row">
                 <label htmlFor="guestPhone">Phone</label>
                 <input type="tel" id="guestPhone" name="guestPhone" placeholder="+852 XXXX XXXX" />
             </div>
