@@ -212,9 +212,8 @@ export default function Home() {
               <div className="form-group">
                 <label htmlFor="guestPhone">Phone</label>
                 <input type="tel" id="guestPhone" name="guestPhone" placeholder="+852 XXXX XXXX" />
-              </div>
             </div>
-
+            
             <div className="form-row">
               <div className="form-group">
                 <label htmlFor="numberOfAdults">Number of Adults *</label>
